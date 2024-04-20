@@ -1,0 +1,8 @@
+{
+  "realm": "fardenrealm",
+  "auth-server-url": "http://localhost:8080",
+  "resource": "fardeenclient",
+  "credentials": {
+    "secret": "xjaW7B9rbSWbl3bEdOQWQgv2tl6ZM09a"
+  }
+}

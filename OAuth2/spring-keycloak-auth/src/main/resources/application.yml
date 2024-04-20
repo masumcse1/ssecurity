@@ -1,0 +1,13 @@
+server.port: 8282
+spring:
+  output:
+    ansi:
+      enabled: always
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/fardenrealm/protocol/openid-connect/certs
+#logging:
+#  level:
+#    root: INFO
